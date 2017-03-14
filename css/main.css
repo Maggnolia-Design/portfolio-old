@@ -132,30 +132,6 @@ p {
  
 /* squiggle */
 
-/*.holder {
-    overflow: hidden;
-    position: relative;
-    width: 87%;
-    height: 100px;
-    margin: auto;
-}
-
-.ellipse {
-    position: absolute;
-    background: radial-gradient(ellipse, transparent, transparent 10px, black 10px, black 16px, transparent 16px);
-    background-size: 55px 55px;
-    width: 100%;
-    height: 30px;
-    top: 8px;
-    left: -18px;
-}
-
-.ellipse2 {
-    top: 4px;
-    left: 1px;
-    background-position: 10px -23px;
-}*/
-
 .holder {
   /* Clip edges, as some of the lines don't terminate nicely. */
     overflow: hidden;
@@ -168,16 +144,16 @@ p {
 .ellipse {
     position: absolute;
     background: radial-gradient(ellipse, transparent, transparent 10px, black 10px, black 15px, transparent 15px);
-    background-size: 50px 53px;
+    background-size: 49px 40px;
     width: 100%;
-    height: 28px;
+    height: 19px;
     top: 11px;
     left: -17px;
 }
 
 .ellipse2 {
-    top: 38px;
-    background-position: 26px -28px;
+    top: 29px;
+    background-position: 26px -23px;
     left: -18px;
 }
 
