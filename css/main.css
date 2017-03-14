@@ -31,7 +31,7 @@ p {
 /* - - - - NAV - - - - */
 #masterhead {
   border-bottom: 2px solid;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   padding-top: 2rem;
   position: fixed;
   top:0;
@@ -129,15 +129,59 @@ p {
 }
 
 /*   - - - - ABOUT ME   - - - - */
-
-.profile-box {
-  background-color: #efefef;
-  padding-top: 0.5em;
-  clear: left;
-}
  
-/*  padding-top: 2.5rem;*/
+/* squiggle */
 
+/*.holder {
+    overflow: hidden;
+    position: relative;
+    width: 87%;
+    height: 100px;
+    margin: auto;
+}
+
+.ellipse {
+    position: absolute;
+    background: radial-gradient(ellipse, transparent, transparent 10px, black 10px, black 16px, transparent 16px);
+    background-size: 55px 55px;
+    width: 100%;
+    height: 30px;
+    top: 8px;
+    left: -18px;
+}
+
+.ellipse2 {
+    top: 4px;
+    left: 1px;
+    background-position: 10px -23px;
+}*/
+
+.holder {
+  /* Clip edges, as some of the lines don't terminate nicely. */
+    overflow: hidden;
+    position: relative;
+    width: 55%;
+    height: 100px;
+    margin: auto;
+}
+
+.ellipse {
+    position: absolute;
+    background: radial-gradient(ellipse, transparent, transparent 10px, black 10px, black 15px, transparent 15px);
+    background-size: 50px 53px;
+    width: 100%;
+    height: 28px;
+    top: 11px;
+    left: -17px;
+}
+
+.ellipse2 {
+    top: 38px;
+    background-position: 26px -28px;
+    left: -18px;
+}
+
+/* other */
 
 .contact-intro {
   position: static;
@@ -238,11 +282,17 @@ form .form-button {
     position: absolute;
   }
 
+  #home-button > span:nth-of-type(2) {
+    visibility: visible;
+    position: relative;
+  }
+
   #masterhead {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-  #masterhead, #home-button {
+
+#home-button {
     visibility: visible;
     position: absolute;
   }
@@ -314,18 +364,13 @@ form .form-button {
 
   .profile1, .profile2 {
     float: left;
-    margin-left: 5rem;
+    margin-left: 20%;
   }
 
   .icon {
     float: left;
     width: 19.2rem;
-    margin-left: 5rem;
-  }
-
-  .profile-box {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20%;
   }
 
   #masterhead {
